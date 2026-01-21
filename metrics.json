@@ -1,0 +1,895 @@
+[
+  {
+    "mutation": "boundary_int",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "boundary_int",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "unicode",
+    "timestamp": 1768902852.7296484,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 14.114856719970703,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "nested_json",
+    "timestamp": 1768902852.7296484,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 14.114856719970703,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "malformed_schema",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "long_string",
+    "timestamp": 1768902852.7267368,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 17.026424407958984,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "boundary_int",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "regex_bomb",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "boundary_int",
+    "timestamp": 1768902852.7437632,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "boundary_int",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "success",
+    "latency_ms": 0.0,
+    "response": "Positive Sentiment"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  },
+  {
+    "mutation": "random_entropy",
+    "timestamp": 1768902852.745767,
+    "mode": "function",
+    "status": "crash_or_network_error",
+    "latency_ms": 0.0,
+    "response": null,
+    "error": "'str' object has no attribute 'get'"
+  }
+]
