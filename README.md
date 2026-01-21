@@ -1,6 +1,3 @@
-# Universal-System-Stress-Failure-Harness
-Universal, config-driven system stress &amp; failure testing harness designed to expose crashes, latency spikes, nondeterminism, and forbidden failures across APIs, AI services, and internal functions.
-
 # 🛡️ Universal System Stress & Failure Harness
 
 A **config-driven, reusable system stress and failure testing harness** designed to intentionally break systems and surface crashes, latency spikes, forbidden failures, and nondeterministic behavior.
