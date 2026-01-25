@@ -1,213 +1,118 @@
-# 🛡️ Universal System Stress & Failure Harness
+Markdown
 
-A **config-driven, reusable system stress and failure testing harness** designed to intentionally break systems and surface crashes, latency spikes, forbidden failures, and nondeterministic behavior.
+# ⚛️ Quantum-Adversarial Stress Harness
 
-This project focuses on **robustness testing**, not just correctness — answering the question:
-
-> *How does a system behave when users don’t behave nicely?*
-
----
+**A config-driven, probabilistic stress testing system designed to break APIs, Internal Functions, and AI Models under uncertainty.**
 
 ## 📖 Overview
+This repository contains a dual-layer stress harness:
+1.  **Layer 1 (Universal Harness):** A high-volume, deterministic stress tester for finding hard crashes and bugs.
+2.  **Layer 2 (Quantum-Adversarial):** A probabilistic engine that models "Superposition" (multiple potential input states) and "Collapse" (measurement) to calculate a system's **Risk Profile** and **Stability Index**.
 
-The Universal System Stress & Failure Harness is built to test **input-driven systems** such as:
-
-- HTTP APIs
-- Internal Python functions / rule engines
-- AI & ML inference logic (extensible)
-
-Unlike traditional load-testing tools that focus only on traffic volume, this harness generates **hostile and adversarial inputs** and measures how systems fail under stress.
-
-The harness follows a **zero code change philosophy** — systems are tested by changing configuration only.
+It follows a **Zero Code Change** philosophy: switch between testing an API, a local function, or an AI model purely by changing the configuration.
 
 ---
 
 ## 🚀 Key Features
 
-- 🔧 **Hybrid Target Support**
-  - HTTP APIs
-  - Local Python functions
-  - Extensible for AI models
+### 🛡️ Layer 1: Universal Stress (Deterministic)
+* **Universal Targets:** Test HTTP APIs or Local Python Functions via dynamic loading.
+* **Hostile Mutations:** Automatically generates SQL injection, Deep JSON nesting, Regex Bombs, and Unicode overflows.
+* **High Volume:** Generates thousands of test cases using random entropy.
+* **Concurrency:** Parallel execution for high-throughput stress.
 
-- 🧬 **Input Mutation Engine**
-  - Empty inputs
-  - Extremely long payloads
-  - Unicode & malformed data
-  - Random entropy & boundary values
-
-- 🧠 **Failure Taxonomy Driven**
-  - Expected vs forbidden failures
-  - Crash and exception detection
-  - Silent failure identification
-
-- 📊 **Observability & Metrics**
-  - Latency measurement
-  - Failure frequency
-  - Run-level traceability (`run_id`)
-  - Machine-readable JSON reports
-
-- ♻️ **Fully Config-Driven**
-  - No hardcoded targets
-  - No code changes per system
-  - Reusable across environments
+### ⚛️ Layer 2: Quantum-Adversarial (Probabilistic)
+* **Superposition Modeling:** Define a "User State" as a weighted probability cloud (e.g., 80% Normal, 15% Malicious, 5% Edge Case).
+* **Collapse Engine:** "Measures" the system 100+ times to collapse uncertainty into a single reality.
+* **Risk Metrics:** Calculates **Confidence Score** and **Stability Index** (latency variance) instead of binary Pass/Fail.
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-stress_harness/
-├── adapters/            # API, Function, AI adapters
-├── core/                # Runner, metrics, failure detection
-├── generators/          # Input mutation engine
-├── config/              # YAML-based configuration
-├── reports/             # Machine-readable output (metrics.json)
-├── failure-taxonomy.md  # Defined failure classes & severity
-├── requirements.txt     # Python dependencies
-└── README.md            # Project documentation
-````
+stress-harness/
+├── config/
+│   ├── mutation-config.yaml    # Layer 1 Config (Deterministic)
+│   └── probability-config.yaml # Layer 2 Config (Quantum/Probabilistic)
+├── generators/                 # Mutation logic (bit flips, regex bombs)
+├── quantum_layer/              # NEW: Superposition & Collapse logic
+│   ├── superposition.py
+│   └── collapse_engine.py
+├── logs/                       # Execution logs
+├── runner.py                   # Layer 1 Execution Engine
+├── superposition_runner.py     # Layer 2 Execution Engine
+├── analyze_metrics.py          # Layer 1 Analytics
+├── measure_risk.py             # Layer 2 Risk Measurement
+├── local_targets.py            # Dummy targets (Rule Engine & AI Model)
+├── final-risk-report.md        # Task 1 Report
+├── quantum-war-report.md       # Task 2 Report
+└── requirements.txt            # Dependencies
+🛠️ Installation
+Clone the repository:
 
----
+Bash
 
-## 🛠️ Installation
+git clone [https://github.com/your-username/quantum-stress-harness.git](https://github.com/your-username/quantum-stress-harness.git)
+cd quantum-stress-harness
+Install Dependencies:
 
-### 1️⃣ Clone the repository
+Bash
 
-```bash
-git clone https://github.com/kanishksingh07/Universal-System-Stress-Failure-Harness.git
-cd Universal-System-Stress-Failure-Harness
-```
-
-### 2️⃣ Install dependencies
-
-```bash
 pip install -r requirements.txt
-```
+🏃‍♂️ Usage Guide
+Mode A: Classical Stress Testing (Task 1)
+Best for finding bugs, crashes, and memory leaks.
 
-**Dependencies**
+Configure: Edit config/mutation-config.yaml.
 
-* `requests`
-* `pyyaml`
+Run:
 
----
+Bash
 
-## ⚙️ Configuration
+python runner.py
+Analyze:
 
-All behavior is controlled via `config/harness.yaml`.
+Bash
 
-### 🔹 Test an HTTP API
+python analyze_metrics.py
+Mode B: Quantum-Adversarial Testing (Task 2)
+Best for measuring stability, confidence, and risk under uncertainty.
 
-```yaml
-target:
-  type: api
-  url: http://localhost:8000/test
-  timeout_ms: 2000
+Configure: Edit config/probability-config.yaml to define states and weights.
 
-execution:
-  total_tests: 50
+Run (Superposition Engine):
 
-mutations:
-  - empty
-  - long
-  - unicode
-  - random
-```
+Bash
 
-### 🔹 Test a Local Python Function
+python superposition_runner.py
+Generates quantum_metrics.json
 
-```yaml
-target:
-  type: function
-  module: sample_target
-  function: test_function
-  timeout_ms: 2000
+Measure (Collapse Engine):
 
-mutations:
-  - empty
-  - long
-  - unicode
-  - random
-```
+Bash
 
-Switching target types requires **no code changes**.
+python measure_risk.py
+Output:
 
----
+Plaintext
 
-## 🏃 Usage
+QUANTUM RISK REPORT (N=100)
+✅ System Confidence:   95.0%
+⚖️  Stability Index:     76.2%
+⚠️  FINAL RISK SCORE:    27.5% (CRITICAL RISK)
+🛡️ Attack Vectors
+The harness supports the following mutation types:
 
-Run the harness from the project root:
+regex_bomb: Triggers catastrophic backtracking in regex engines.
 
-```bash
-python -m core.runner
-```
+long_string: 50KB+ payloads to test buffer handling.
 
-This will:
+nested_json: Recursive depth > 50 to stack-overflow parsers.
 
-1. Generate hostile inputs
-2. Execute them against the target
-3. Measure latency & failures
-4. Write results to `reports/metrics.json`
+boundary_int: Edge cases like -1, 0, MAX_INT.
 
----
+malformed_schema: Structurally valid JSON that violates business logic.
 
-## 📊 Output Example
-
-```json
-{
-  "run_id": "2026-01-22T10:41:12Z",
-  "mutation": "unicode",
-  "status": "error",
-  "failure_type": "FORBIDDEN_FAILURE",
-  "latency": 0.134
-}
-```
-
-All outputs are **machine-readable** and suitable for dashboards or further analysis.
-
----
-
-## 🧪 Failure Taxonomy
-
-Failure classes and severity levels are defined in:
-
-```
-failure-taxonomy.md
-```
-
-The taxonomy distinguishes:
-
-* ✅ Expected failures (safe rejection)
-* ❌ Forbidden failures (crashes, hangs, silent corruption)
-
----
-
-## 🎯 Intended Use Cases
-
-* API robustness testing
-* Rule engine validation
-* AI inference edge-case testing
-* Demo & prototype hardening
-* Internal tool stress testing
-
----
-
-## 📝 License
-
-This project is open-source and intended for educational, testing, and system hardening purposes.
-
-Use it to break systems — and then fix them.
-
-````
-
----
-
-## ✅ `requirements.txt` (commit this too)
-
-```text
-requests
-pyyaml
-````
-
----
-
-
+📝 License
+This project is open-source. Created for the System Stress & Failure Engineering assignment.
