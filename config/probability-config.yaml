@@ -1,0 +1,34 @@
+# Target System (Reusing your Task 1 Function logic)
+target_system:
+  type: "function"
+  module_path: "local_targets"
+  function_name: "process_order_rules"
+  timeout_seconds: 1
+
+# Quantum Execution Settings
+quantum_settings:
+  shots: 100  # How many times we "measure" the system (run the test loop)
+
+# The Superposition Definition
+# We are modeling a user that is 80% likely to be Normal, and 20% likely to be malicious.
+superposition_states:
+  - name: "|Normal_User>"
+    weight: 0.80
+    payload: 
+      user_id: 101
+      role: "customer"
+      value: 50
+
+  - name: "|SQL_Injector>"  # State 1: Malicious String
+    weight: 0.15
+    payload: 
+      user_id: 101
+      role: "' OR '1'='1"
+      value: 50
+
+  - name: "|Boundary_Breaker>" # State 2: Logic Crash (Negative Value)
+    weight: 0.05
+    payload: 
+      user_id: 101
+      role: "customer"
+      value: -1
