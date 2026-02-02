@@ -1,13 +1,13 @@
-Markdown
-
 # ⚛️ Quantum-Adversarial Stress Harness
 
-**A config-driven, probabilistic stress testing system designed to break APIs, Internal Functions, and AI Models under uncertainty.**
+**A config-driven, probabilistic, and adaptive stress testing system designed to break APIs, Internal Functions, and AI Models under uncertainty.**
 
 ## 📖 Overview
-This repository contains a dual-layer stress harness:
+This repository contains a tri-layer stress harness that evolves from simple bug hunting to autonomous risk management:
+
 1.  **Layer 1 (Universal Harness):** A high-volume, deterministic stress tester for finding hard crashes and bugs.
-2.  **Layer 2 (Quantum-Adversarial):** A probabilistic engine that models "Superposition" (multiple potential input states) and "Collapse" (measurement) to calculate a system's **Risk Profile** and **Stability Index**.
+2.  **Layer 2 (Quantum-Adversarial):** A probabilistic engine that models "Superposition" (multiple potential input states) and "Collapse" to calculate a system's **Risk Profile**.
+3.  **Layer 3 (Adaptive Learning):** An autonomous feedback loop that **learns from failures**, automatically adjusting risk weights to focus on weak points while respecting strict safety boundaries.
 
 It follows a **Zero Code Change** philosophy: switch between testing an API, a local function, or an AI model purely by changing the configuration.
 
@@ -19,12 +19,16 @@ It follows a **Zero Code Change** philosophy: switch between testing an API, a l
 * **Universal Targets:** Test HTTP APIs or Local Python Functions via dynamic loading.
 * **Hostile Mutations:** Automatically generates SQL injection, Deep JSON nesting, Regex Bombs, and Unicode overflows.
 * **High Volume:** Generates thousands of test cases using random entropy.
-* **Concurrency:** Parallel execution for high-throughput stress.
 
 ### ⚛️ Layer 2: Quantum-Adversarial (Probabilistic)
-* **Superposition Modeling:** Define a "User State" as a weighted probability cloud (e.g., 80% Normal, 15% Malicious, 5% Edge Case).
+* **Superposition Modeling:** Define a "User State" as a weighted probability cloud (e.g., 80% Normal, 15% Malicious).
 * **Collapse Engine:** "Measures" the system 100+ times to collapse uncertainty into a single reality.
-* **Risk Metrics:** Calculates **Confidence Score** and **Stability Index** (latency variance) instead of binary Pass/Fail.
+* **Risk Metrics:** Calculates **Confidence Score** and **Stability Index** (latency variance).
+
+### 🧠 Layer 3: Adaptive Learning (Autonomous)
+* **Self-Healing State:** Automatically increases the probability of testing scenarios that cause crashes or latency spikes.
+* **Safety Brakes:** Enforces **Max Delta** (velocity limits) and **Entropy Floors** to prevent runaway learning.
+* **Explainable AI (XAI):** Logs *why* a weight was changed (e.g., "Failure Detected -> Increased Weight by 0.05").
 
 ---
 
@@ -33,32 +37,32 @@ It follows a **Zero Code Change** philosophy: switch between testing an API, a l
 ```text
 stress-harness/
 ├── config/
-│   ├── mutation-config.yaml    # Layer 1 Config (Deterministic)
-│   └── probability-config.yaml # Layer 2 Config (Quantum/Probabilistic)
-├── generators/                 # Mutation logic (bit flips, regex bombs)
-├── quantum_layer/              # NEW: Superposition & Collapse logic
+│   ├── mutation-config.yaml    # Layer 1 Config
+│   └── probability-config.yaml # Layer 2 Config
+├── adaptive_layer/             # NEW: Layer 3 Logic
+│   ├── learning_engine.py      # The Brain (Update Rules & Safety Brakes)
+│   └── __init__.py
+├── quantum_layer/              # Layer 2 Logic
 │   ├── superposition.py
 │   └── collapse_engine.py
+├── generators/                 # Mutation payloads
 ├── logs/                       # Execution logs
-├── runner.py                   # Layer 1 Execution Engine
-├── superposition_runner.py     # Layer 2 Execution Engine
-├── analyze_metrics.py          # Layer 1 Analytics
-├── measure_risk.py             # Layer 2 Risk Measurement
-├── local_targets.py            # Dummy targets (Rule Engine & AI Model)
-├── final-risk-report.md        # Task 1 Report
-├── quantum-war-report.md       # Task 2 Report
+├── runner.py                   # Layer 1 Execution
+├── superposition_runner.py     # Layer 2 Execution
+├── test_drift_safety.py        # Layer 3 Verification
+├── measure_risk.py             # Risk Measurement
+├── explainable-learning.md     # XAI Documentation
+├── system-guarantees.md        # Safety Constitution
 └── requirements.txt            # Dependencies
 🛠️ Installation
 Clone the repository:
 
 Bash
-
 git clone [https://github.com/your-username/quantum-stress-harness.git](https://github.com/your-username/quantum-stress-harness.git)
 cd quantum-stress-harness
 Install Dependencies:
 
 Bash
-
 pip install -r requirements.txt
 🏃‍♂️ Usage Guide
 Mode A: Classical Stress Testing (Task 1)
@@ -66,53 +70,53 @@ Best for finding bugs, crashes, and memory leaks.
 
 Configure: Edit config/mutation-config.yaml.
 
-Run:
+Run: python runner.py
 
-Bash
+Analyze: python analyze_metrics.py
 
-python runner.py
-Analyze:
-
-Bash
-
-python analyze_metrics.py
-Mode B: Quantum-Adversarial Testing (Task 2)
+Mode B: Quantum-Adversarial Testing (Task 2 & 3)
 Best for measuring stability, confidence, and risk under uncertainty.
 
-Configure: Edit config/probability-config.yaml to define states and weights.
+Configure: Edit config/probability-config.yaml (Set seed: 42 for determinism).
 
-Run (Superposition Engine):
+Run: python superposition_runner.py
 
-Bash
-
-python superposition_runner.py
 Generates quantum_metrics.json
 
-Measure (Collapse Engine):
+Measure: python measure_risk.py
 
-Bash
-
-python measure_risk.py
 Output:
 
 Plaintext
-
 QUANTUM RISK REPORT (N=100)
 ✅ System Confidence:   95.0%
 ⚖️  Stability Index:     76.2%
 ⚠️  FINAL RISK SCORE:    27.5% (CRITICAL RISK)
+Mode C: Adaptive Learning Verification (Task 4)
+Best for testing the system's ability to learn from failure without going rogue.
+
+Run Safety Check:
+
+Bash
+python test_drift_safety.py
+Verify Behavior:
+
+The system simulates a massive failure signal (1000 crashes).
+
+Pass Condition: The weight increases but stops exactly at 0.60 (Saturation Limit) instead of going to 1.0.
+
+Explainability: Check the logs printed to console to see the reasoning behind every weight change.
+
 🛡️ Attack Vectors
 The harness supports the following mutation types:
 
-regex_bomb: Triggers catastrophic backtracking in regex engines.
+regex_bomb: Triggers catastrophic backtracking.
 
-long_string: 50KB+ payloads to test buffer handling.
+long_string: 50KB+ payloads to test buffers.
 
-nested_json: Recursive depth > 50 to stack-overflow parsers.
+nested_json: Recursive depth > 50.
 
 boundary_int: Edge cases like -1, 0, MAX_INT.
-
-malformed_schema: Structurally valid JSON that violates business logic.
 
 📝 License
 This project is open-source. Created for the System Stress & Failure Engineering assignment.
