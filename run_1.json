@@ -1,0 +1,702 @@
+[
+  {
+    "shot_id": 1,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.91357231140137,
+    "error_msg": null
+  },
+  {
+    "shot_id": 2,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.20022392272949,
+    "error_msg": null
+  },
+  {
+    "shot_id": 3,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 60.01472473144531,
+    "error_msg": null
+  },
+  {
+    "shot_id": 4,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.782203674316406,
+    "error_msg": null
+  },
+  {
+    "shot_id": 5,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.34637451171875,
+    "error_msg": null
+  },
+  {
+    "shot_id": 6,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.31466484069824,
+    "error_msg": null
+  },
+  {
+    "shot_id": 7,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.473690032958984,
+    "error_msg": null
+  },
+  {
+    "shot_id": 8,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.54020881652832,
+    "error_msg": null
+  },
+  {
+    "shot_id": 9,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.22239685058594,
+    "error_msg": null
+  },
+  {
+    "shot_id": 10,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.42147636413574,
+    "error_msg": null
+  },
+  {
+    "shot_id": 11,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.31704902648926,
+    "error_msg": null
+  },
+  {
+    "shot_id": 12,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.313711166381836,
+    "error_msg": null
+  },
+  {
+    "shot_id": 13,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.2016544342041,
+    "error_msg": null
+  },
+  {
+    "shot_id": 14,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.65417289733887,
+    "error_msg": null
+  },
+  {
+    "shot_id": 15,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.29582977294922,
+    "error_msg": null
+  },
+  {
+    "shot_id": 16,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.34041404724121,
+    "error_msg": null
+  },
+  {
+    "shot_id": 17,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.11487007141113,
+    "error_msg": null
+  },
+  {
+    "shot_id": 18,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.405025482177734,
+    "error_msg": null
+  },
+  {
+    "shot_id": 19,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.43792724609375,
+    "error_msg": null
+  },
+  {
+    "shot_id": 20,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.68612098693848,
+    "error_msg": null
+  },
+  {
+    "shot_id": 21,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.76432228088379,
+    "error_msg": null
+  },
+  {
+    "shot_id": 22,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.68254470825195,
+    "error_msg": null
+  },
+  {
+    "shot_id": 23,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.56619644165039,
+    "error_msg": null
+  },
+  {
+    "shot_id": 24,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.50468444824219,
+    "error_msg": null
+  },
+  {
+    "shot_id": 25,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 26,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.41623115539551,
+    "error_msg": null
+  },
+  {
+    "shot_id": 27,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.7047176361084,
+    "error_msg": null
+  },
+  {
+    "shot_id": 28,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.69088935852051,
+    "error_msg": null
+  },
+  {
+    "shot_id": 29,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.53210258483887,
+    "error_msg": null
+  },
+  {
+    "shot_id": 30,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.374507904052734,
+    "error_msg": null
+  },
+  {
+    "shot_id": 31,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.63676834106445,
+    "error_msg": null
+  },
+  {
+    "shot_id": 32,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.34995079040527,
+    "error_msg": null
+  },
+  {
+    "shot_id": 33,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.62532424926758,
+    "error_msg": null
+  },
+  {
+    "shot_id": 34,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 35,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.63128471374512,
+    "error_msg": null
+  },
+  {
+    "shot_id": 36,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.60863494873047,
+    "error_msg": null
+  },
+  {
+    "shot_id": 37,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.55952072143555,
+    "error_msg": null
+  },
+  {
+    "shot_id": 38,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.75693130493164,
+    "error_msg": null
+  },
+  {
+    "shot_id": 39,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.655364990234375,
+    "error_msg": null
+  },
+  {
+    "shot_id": 40,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.51708221435547,
+    "error_msg": null
+  },
+  {
+    "shot_id": 41,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.52781105041504,
+    "error_msg": null
+  },
+  {
+    "shot_id": 42,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.75430870056152,
+    "error_msg": null
+  },
+  {
+    "shot_id": 43,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.55952072143555,
+    "error_msg": null
+  },
+  {
+    "shot_id": 44,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.69160461425781,
+    "error_msg": null
+  },
+  {
+    "shot_id": 45,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.38571357727051,
+    "error_msg": null
+  },
+  {
+    "shot_id": 46,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.447702407836914,
+    "error_msg": null
+  },
+  {
+    "shot_id": 47,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.46582221984863,
+    "error_msg": null
+  },
+  {
+    "shot_id": 48,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.32086372375488,
+    "error_msg": null
+  },
+  {
+    "shot_id": 49,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.42433738708496,
+    "error_msg": null
+  },
+  {
+    "shot_id": 50,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.51374435424805,
+    "error_msg": null
+  },
+  {
+    "shot_id": 51,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.68659782409668,
+    "error_msg": null
+  },
+  {
+    "shot_id": 52,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.34971237182617,
+    "error_msg": null
+  },
+  {
+    "shot_id": 53,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.39811134338379,
+    "error_msg": null
+  },
+  {
+    "shot_id": 54,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.66347122192383,
+    "error_msg": null
+  },
+  {
+    "shot_id": 55,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.46653747558594,
+    "error_msg": null
+  },
+  {
+    "shot_id": 56,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.704240798950195,
+    "error_msg": null
+  },
+  {
+    "shot_id": 57,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.33302307128906,
+    "error_msg": null
+  },
+  {
+    "shot_id": 58,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.634145736694336,
+    "error_msg": null
+  },
+  {
+    "shot_id": 59,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.56190490722656,
+    "error_msg": null
+  },
+  {
+    "shot_id": 60,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.48394203186035,
+    "error_msg": null
+  },
+  {
+    "shot_id": 61,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 62,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.502777099609375,
+    "error_msg": null
+  },
+  {
+    "shot_id": 63,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.57978630065918,
+    "error_msg": null
+  },
+  {
+    "shot_id": 64,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.43363571166992,
+    "error_msg": null
+  },
+  {
+    "shot_id": 65,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.31704902648926,
+    "error_msg": null
+  },
+  {
+    "shot_id": 66,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.65751075744629,
+    "error_msg": null
+  },
+  {
+    "shot_id": 67,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.443410873413086,
+    "error_msg": null
+  },
+  {
+    "shot_id": 68,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.41694641113281,
+    "error_msg": null
+  },
+  {
+    "shot_id": 69,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.37808418273926,
+    "error_msg": null
+  },
+  {
+    "shot_id": 70,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.74143409729004,
+    "error_msg": null
+  },
+  {
+    "shot_id": 71,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.49467086791992,
+    "error_msg": null
+  },
+  {
+    "shot_id": 72,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.780534744262695,
+    "error_msg": null
+  },
+  {
+    "shot_id": 73,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.245046615600586,
+    "error_msg": null
+  },
+  {
+    "shot_id": 74,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.487518310546875,
+    "error_msg": null
+  },
+  {
+    "shot_id": 75,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.47345161437988,
+    "error_msg": null
+  },
+  {
+    "shot_id": 76,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.77648162841797,
+    "error_msg": null
+  },
+  {
+    "shot_id": 77,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.354719161987305,
+    "error_msg": null
+  },
+  {
+    "shot_id": 78,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.28653144836426,
+    "error_msg": null
+  },
+  {
+    "shot_id": 79,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.64868927001953,
+    "error_msg": null
+  },
+  {
+    "shot_id": 80,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.51231384277344,
+    "error_msg": null
+  },
+  {
+    "shot_id": 81,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.47345161437988,
+    "error_msg": null
+  },
+  {
+    "shot_id": 82,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.50158500671387,
+    "error_msg": null
+  },
+  {
+    "shot_id": 83,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.750732421875,
+    "error_msg": null
+  },
+  {
+    "shot_id": 84,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.28867721557617,
+    "error_msg": null
+  },
+  {
+    "shot_id": 85,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.24099349975586,
+    "error_msg": null
+  },
+  {
+    "shot_id": 86,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.45485496520996,
+    "error_msg": null
+  },
+  {
+    "shot_id": 87,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 88,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.4305362701416,
+    "error_msg": null
+  },
+  {
+    "shot_id": 89,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.52471160888672,
+    "error_msg": null
+  },
+  {
+    "shot_id": 90,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.62413215637207,
+    "error_msg": null
+  },
+  {
+    "shot_id": 91,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.4918098449707,
+    "error_msg": null
+  },
+  {
+    "shot_id": 92,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.85349082946777,
+    "error_msg": null
+  },
+  {
+    "shot_id": 93,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.3077507019043,
+    "error_msg": null
+  },
+  {
+    "shot_id": 94,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.27174949645996,
+    "error_msg": null
+  },
+  {
+    "shot_id": 95,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.41837692260742,
+    "error_msg": null
+  },
+  {
+    "shot_id": 96,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.327301025390625,
+    "error_msg": null
+  },
+  {
+    "shot_id": 97,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 98,
+    "collapsed_state": "|Normal_User>",
+    "status": "success",
+    "latency_ms": 50.173282623291016,
+    "error_msg": null
+  },
+  {
+    "shot_id": 99,
+    "collapsed_state": "|Boundary_Breaker>",
+    "status": "failure",
+    "latency_ms": 0.0,
+    "error_msg": "CRITICAL: Negative value not allowed in kernel!"
+  },
+  {
+    "shot_id": 100,
+    "collapsed_state": "|SQL_Injector>",
+    "status": "success",
+    "latency_ms": 50.812721252441406,
+    "error_msg": null
+  }
+]
