@@ -15,4 +15,3 @@ To prevent "Runaway Learning" (where one state consumes 100% probability), we en
 ## 3. Determinism Contract
 Given Initial State $S_0$ and Seed $K$, the sequence of updates $S_0 \rightarrow S_1 \rightarrow S_2$ must be mathematically identical on every replay.
 
-jhkjhkjh

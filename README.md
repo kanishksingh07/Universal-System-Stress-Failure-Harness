@@ -51,9 +51,17 @@ stress-harness/
 ├── superposition_runner.py     # Layer 2 Execution
 ├── test_drift_safety.py        # Layer 3 Verification
 ├── measure_risk.py             # Risk Measurement
-├── explainable-learning.md     # XAI Documentation
-├── system-guarantees.md        # Safety Constitution
+├── system-contract.md          # 📜 FINAL CONTRACT: System Guarantees
+├── behavior-matrix.md          # 🧭 TRUTH TABLE: Deterministic Behavior
+├── host-safety.md              # 🛡️ Host Protection Policies
+├── failure-containment.md      # 🚒 Blast Radius Control
 └── requirements.txt            # Dependencies
+
+## 📜 System Semantics & Guarantees
+This system operates under a strict **Universal System Contract**.
+* **[System Contract](system-contract.md):** Defines the bounded growth, entropy floors, and immutable history guarantees.
+* **[Behavior Matrix](behavior-matrix.md):** The deterministic "Truth Table" of how the system reacts to every signal.
+* **[Host Safety](host-safety.md):** Proof that the harness cannot escalate privilege or execute arbitrary code.
 🛠️ Installation
 Clone the repository:
 
